@@ -43,13 +43,26 @@ clivas.line('[{10:===>}]'); // prints [===>      ]
 
 ## API
 
-`clivas.clear()`: clears the screen. If you called `clivas.pin()` it would only clear up until the pin.
-`clivas.flush()`: clears everything below the cursor.
-`clivas.pin([lineNumber])`: only clear to here when `clivas.clear()` is called
-`clivas.line(str)`: write a line (accepts a format string as described above)
-`clivas.write(str)`: same as `clivas.line(str)` except it does not add a newline
-`clivas.cursor(enable)`: enable or disable the terminal cursor
-`clivas.alias(name, value)`: add an alias to the format pattern i.e. `clivas.alias('link', 'red+underline')` enables you to use `{link:http://google.com}`
+### `clivas.clear()`
+Clears the screen. If you called `clivas.pin()` it would only clear up until the pin.
+
+### `clivas.flush()`
+Clears everything below the cursor.
+
+###  `clivas.pin([lineNumber])`
+Only clear to here when `clivas.clear()` is called
+
+### `clivas.line(str)`
+Write a line (accepts a format string as described above)
+
+### `clivas.write(str)`
+Same as `clivas.line(str)` except it does not add a newline
+
+### `clivas.cursor(enable)`
+Enable or disable the terminal cursor
+
+### `clivas.alias(name, value)`
+Add an alias to the format pattern i.e. `clivas.alias('link', 'red+underline')` enables you to use `{link:http://google.com}`
 
 ## License
 
