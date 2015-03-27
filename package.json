@@ -1,8 +1,13 @@
 {
-  "name":"clivas",
-  "version":"0.1.4",
+  "name": "clivas",
+  "version": "0.2.0",
   "repository": "git://github.com/mafintosh/clivas",
-  "description":"use your terminal as a canvas. features easy redrawing, colors and more",
-  "keywords":["canvas","cli","console","terminal"],
+  "description": "use your terminal as a canvas. features easy redrawing, colors and more",
+  "keywords": [
+    "canvas",
+    "cli",
+    "console",
+    "terminal"
+  ],
   "author": "Mathias Buus Madsen <mathiasbuus@gmail.com>"
 }
