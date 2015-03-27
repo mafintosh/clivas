@@ -2,19 +2,20 @@ var util = require('util');
 
 var ANSI = {};
 
-ANSI.bold      = ['\x1B[1m',  '\x1B[22m'];
-ANSI.italic    = ['\x1B[3m',  '\x1B[23m'];
-ANSI.underline = ['\x1B[4m',  '\x1B[24m'],
-ANSI.inverse   = ['\x1B[7m',  '\x1B[27m'],
-ANSI.white     = ['\x1B[37m', '\x1B[39m'],
-ANSI.grey      = ['\x1B[90m', '\x1B[39m'],
-ANSI.black     = ['\x1B[30m', '\x1B[39m'],
-ANSI.blue      = ['\x1B[34m', '\x1B[39m'],
-ANSI.cyan      = ['\x1B[36m', '\x1B[39m'],
-ANSI.green     = ['\x1B[32m', '\x1B[39m'],
-ANSI.magenta   = ['\x1B[35m', '\x1B[39m'],
-ANSI.red       = ['\x1B[31m', '\x1B[39m'],
-ANSI.yellow    = ['\x1B[33m', '\x1B[39m']
+ANSI.bold     	= ['\x1B[1m',  '\x1B[22m'];
+ANSI.italic   	= ['\x1B[3m',  '\x1B[23m'];
+ANSI.underline	= ['\x1B[4m',  '\x1B[24m'],
+ANSI.inverse  	= ['\x1B[7m',  '\x1B[27m'],
+ANSI.blink  	= ['\x1B[5m',  '\x1B[25m'],
+ANSI.white    	= ['\x1B[37m', '\x1B[39m'],
+ANSI.grey     	= ['\x1B[90m', '\x1B[39m'],
+ANSI.black    	= ['\x1B[30m', '\x1B[39m'],
+ANSI.blue     	= ['\x1B[34m', '\x1B[39m'],
+ANSI.cyan	= ['\x1B[36m', '\x1B[39m'],
+ANSI.green    	= ['\x1B[32m', '\x1B[39m'],
+ANSI.magenta  	= ['\x1B[35m', '\x1B[39m'],
+ANSI.red      	= ['\x1B[31m', '\x1B[39m'],
+ANSI.yellow   	= ['\x1B[33m', '\x1B[39m']
 
 var WHITESPACE = Array(1000).join(' ');
 
