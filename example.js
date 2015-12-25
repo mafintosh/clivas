@@ -1,4 +1,4 @@
-var clivas = require('clivas');
+var clivas = require('./index.js');
 
 var width = 0;
 var draw = function() {
@@ -6,7 +6,8 @@ var draw = function() {
 
 	width++;
 	if (width > 20) return clivas.line('({red:boom!})');
-	clivas.line('[{20+green:'+Array(width).join('=')+'>}]');
+	clivas.line('[{20+_white+black:'+Array(width).join('=')+'>}]');
+
 };
 
 setInterval(draw, 200);
